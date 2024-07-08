@@ -519,51 +519,19 @@
         <div id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
 
-                <section class="error-404 not-found">
-                    <header class="page-header">
-                        <h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
-                    </header><!-- .page-header -->
+                <section class="error-404 not-found c-page-block" style="min-height: 479px;">
+                    <div class="c-grid c-grid--h-center">
+                        <header class="page-header">
+                            <h1 class="page-title">Parece que não tem nada aqui</h1>
+                        </header><!-- .page-header -->
 
-                    <div class="page-content">
-                        <p>It looks like nothing was found at this location. Maybe try one of the links below or a
-                            search?</p>
-
-                        <form role="search" method="get" class="search-form" action="/">
-                            <label>
-                                <span class="screen-reader-text">Pesquisar por:</span>
-                                <input type="search" class="search-field" placeholder="Pesquisar &hellip;" value=""
-                                    name="s">
-                            </label>
-                            <input type="submit" class="search-submit" value="Pesquisar">
-                        </form>
-                        <div class="widget widget_archive">
-                            <h2 class="widgettitle">Arquivos</h2>
-                            <p>Try looking in the monthly archives. 🙂</p> <label class="screen-reader-text"
-                                for="archives-dropdown--1">Arquivos</label>
-                            <select id="archives-dropdown--1" name="archive-dropdown">
-
-                                <option value="">Selecionar o mês</option>
-
-                            </select>
-
-                            <script type="text/javascript">
-                                /* <![CDATA[ */
-
-                                (function () {
-                                    var dropdown = document.getElementById("archives-dropdown--1");
-                                    function onSelectChange() {
-                                        if (dropdown.options[dropdown.selectedIndex].value !== '') {
-                                            document.location.href = this.options[this.selectedIndex].value;
-                                        }
-                                    }
-                                    dropdown.onchange = onSelectChange;
-                                })();
-
-                                /* ]]> */
-                            </script>
+                        <div class="page-content c-col--12 u-text--center">
+                            Chegamos em um beco sem saída.<br>
+                            Que tal voltarmos de onde viemos? <br>
+                            <a href="/">Página inicial</a>
                         </div>
+                        <!-- .page-content -->
                     </div>
-                    <!-- .page-content -->
                 </section><!-- .error-404 -->
 
             </main><!-- #main -->
@@ -678,8 +646,6 @@
             <div class="c-col--9">
                 &copy; 2024 <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi Foundation</a>. Code
                 Club Brasil é uma Organização sem fins lucrativos. CNPJ: 26.243.148/0001-40<br>
-                Hospedagem gentilmente cedida por <a href="http://www.estudiotouch.com/" target="_blank">Estudio
-                    Touch</a>
             </div>
             <div class="c-col--2">
                 <ul class="o-footer__social-list">
